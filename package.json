@@ -1,0 +1,19 @@
+{
+    "name": "simple-http-assignment-start",
+    "version": "1.0.0",
+    "description": "A simple http server serving HTML and JSON",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Text Complete\""
+    },
+    "keywords": [],
+    "author": "Lucas Corey",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-plugin-import": "^2.29.1"
+    }
+}
